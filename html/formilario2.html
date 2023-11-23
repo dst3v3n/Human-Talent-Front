@@ -32,6 +32,7 @@
     </div>
     
     <!-- PASO 1 -->
+    <form action="" method="post">
     <button><label for="chk1"><h1>PASO 1</h1></label></button>
     <input type="checkbox" id="chk1">
     <div id="ocultar1">
@@ -44,7 +45,7 @@
                 <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
             </div>
         </div>
-        <form class="row g-3">
+        <div class="row g-3">
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
                 <input type="email" class="form-control" id="inputEmail4">
@@ -91,7 +92,7 @@
             <div class="col-12">
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
-        </form>
+        </div>
         
         <!-- PASO 2 dentro de PASO 1 -->
         <button><label for="chk2"><h1>PASO 2</h1></label></button>
@@ -105,7 +106,7 @@
                 <div class="col2">
                     <input type="text" class="form-control" placeholder="Jefe inmediato" aria-label="Nombre">
                 </div>
-                <form class="row g-3">
+                <div class="row g-3">
                     <div class="col-md-6">
                         <label for="inputEmail4" class="form-label">Email</label>
                         <input type="email" class="form-control" id="inputEmail4">
@@ -134,7 +135,7 @@
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary">Enviar</button>
                     </div>
-                </form>
+                </div>
             </div>
             
             <!-- PASO 3 dentro de PASO 2 -->
@@ -204,7 +205,7 @@
                             </option>
                         </select>
                     </div>
-                    <form class="row g-3">
+                    <div class="row g-3">
                         <div class="col-12">
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -216,10 +217,11 @@
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary">Enviar</button>
                         </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+</form>
 </body>
 </html>
